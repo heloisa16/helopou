@@ -1,0 +1,116 @@
+.cabecalho{
+    background-image: url("imagens/banner.png.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    width: 367px;
+    height: 99px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+  
+}
+
+.espaco{
+    height: 140px; 
+}
+.bodyprincipal{
+    text-align: center;
+    margin: 0;
+    width: 350px;
+    height: 200px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+    background-image: url("imagens/fundopri.png");
+    background-repeat: no-repeat;
+
+
+}
+body{
+    text-align: center;
+    margin: 0;
+    width: 350px;
+    height: 10px;
+    margin-right: 19px;
+    margin-left: 19px;
+    background-image: url("imagens/fundo.png.png");
+}
+.rodape{
+    text-align: center;
+    margin: 0;
+    background-image: url("imagens/rodape.png");
+    width: 306px;
+    height: 57px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 15px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+} 
+.elenco{
+    column-count: 2;
+    margin-right: 19px;
+    margin-left: 19px;
+    margin-top: 0 px;
+
+}
+
+.sinopse{
+    font-size: 18px;
+    text-align: justify;
+    width: 300px;
+    margin: 0;
+
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.formulario{
+    text-align: left;
+   
+}
+.botao1,
+.botao2{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: 1px solid black;
+    display: inline-block;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 250px;
+    border-color: blue;
+    color: black;
+    font-family: karantina;
+}
+
+
+input[type="submit"]{
+	background-color: #d10ec1;
+	background: linear-gradient(to bottom,  #a31dd8 0%,#1b79d1 30%,#d11bc2 70%,#4f1570 100%);
+	border: none;
+	border-radius: 30px;
+	font-size: 1.2em;
+	color: rgb(236, 226, 226);
+	padding: 10px 30px;
+	margin: 20px 0;
+	text-shadow: 2px 2px 5px #000;
+	cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    font-family: Inter;
+} 
+
+.cadastro{
+    text-align: left;
+    padding: 10px 30px;
+    
+  
+}
